@@ -107,9 +107,27 @@ p {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .container {
-    margin: 16px; 
-    width: auto; 
+    margin: 16px;
+    width: 90%; /* Adjust width to fit smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 16px; /* Reduce padding for smaller screens */
+  }
+
+  .main-image img {
+    width: 100%; /* Ensure the image scales properly */
+  }
+
+  .learning {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .mini-heading {
+    font-size: 20px; /* Reduce heading size */
+  }
+
+  .para {
+    font-size: 14px; /* Adjust paragraph font size */
   }
 }
